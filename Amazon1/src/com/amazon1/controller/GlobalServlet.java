@@ -38,6 +38,7 @@ public class GlobalServlet extends HttpServlet {
 		int i=ae.createProfile("ac");
 		if(i>0) {
 			out.println("profile created");
+			out.println("Hello World");
 		}
 		else
 		{
